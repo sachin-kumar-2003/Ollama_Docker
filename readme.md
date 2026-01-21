@@ -8,7 +8,7 @@ This project creates a simple **chat API** using:
 * **Ollama** to run a local AI model
 * **Docker Compose** to manage services
 
-The API sends a message to the **Gemma 3 (1B)** model and returns the response.
+The API sends a message to the **Gemma 3** model and returns the response.
 
 ---
 
@@ -58,7 +58,7 @@ This API connects to Ollama and sends a message to the model.
 Key features:
 
 * Connects to Ollama at `http://localhost:11434`
-* Pulls the model `gemma3:1b`
+* Pulls the model `gemma3:4b`
 * Exposes a `/chat` endpoint
 
 ---
